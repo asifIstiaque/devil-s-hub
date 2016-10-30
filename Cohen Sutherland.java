@@ -20,7 +20,7 @@ public void CohenSutherland(double x0, double y0, double x1, double y1){
   		   accept=true;
   		   break;
   		   
-  	   }else if ((outCode_0 & outCode_1)!=0){
+  	   }else if ((outCode_0 & outCode_1)!=0){ //Bitwise AND not 0
        
          //fully reject
   		   accept=false;
